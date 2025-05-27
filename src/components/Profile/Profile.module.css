@@ -1,0 +1,82 @@
+.profileContainer {
+  margin: 10px auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 250px;
+  overflow: hidden;
+  background-color: #fff; /* білий фон */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3); /* легка тінь */
+  font-family: Arial, sans-serif;
+}
+
+.profileBox {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageBox {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+.profileImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  color: #000;
+}
+
+.tag,
+.location {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+.location {
+  margin-top: 4px;
+}
+
+.profileList {
+  display: flex;
+  width: 100%;
+  background-color: #d3d3d3;
+  border-top: 1px solid #ccc;
+}
+
+.profileList li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0;
+  border-left: 1px solid #bbb;
+}
+
+.profileList li:first-child {
+  border-left: none;
+}
+
+.listItemTitle {
+  font-size: 14px;
+  color: #000;
+}
+
+.listItemValue {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 4px;
+}
