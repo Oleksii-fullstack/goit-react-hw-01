@@ -1,0 +1,25 @@
+.table {
+  font-family: Arial, sans-serif;
+  width: 450px;
+  margin: 24px auto;
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.table th,
+.table td {
+  border: 1px solid #333;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.tableHead {
+  background-color: #310311;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #e5e5e5;
+}
