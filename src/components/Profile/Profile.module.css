@@ -1,11 +1,11 @@
 .profileContainer {
   margin: 10px auto;
-  border: 1px solid #000;
+  border: 2px solid #000;
   border-radius: 10px;
   width: 250px;
   overflow: hidden;
-  background-color: #fff; /* білий фон */
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3); /* легка тінь */
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   font-family: Arial, sans-serif;
 }
 
@@ -21,7 +21,7 @@
   height: 130px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: #f3f3f3;
+  background-color: #310311;
 }
 
 .profileImg {
